@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Snackbar customization */
+.snackbar-success {
+  background-color: #4caf50 !important;
+  color: white !important;
+}
+
+.snackbar-error {
+  background-color: #f44336 !important;
+  color: white !important;
+}
+
+/* Material table styling */
+.mat-mdc-table {
+  background: white;
+}
+
+.mat-mdc-header-cell {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px !important;
+  }
+  
+  mat-dialog-content {
+    min-width: 300px !important;
+  }
+}
